@@ -1,0 +1,111 @@
+*
+{
+	box-sizing: border-box;
+}
+
+/*===========Cabecera===========00*/
+
+/*Seccion de logeo*/
+i.fa
+{
+	color: #fff;
+	font-size: 25px;
+}
+a{
+	color: #FFF;
+	text-decoration: none;
+}
+#parrafo{ font-family:'Courgette'; }
+.icons{ width: 25%; }
+#logo{background: url(img/camisa.svg) no-repeat; height: 90px;}
+/*Header*/
+#hdr
+{
+	background-image: url(img/ropa1.jpg);
+	width: 100%;  
+	height: 700px;
+	padding: 0;
+	margin: 0;
+}
+.parallax
+{
+	background: #FFF fixed no-repeat 50% 50%;
+	background-size: cover; 
+
+}
+	.log{height: 50px; text-align: right; padding-left: 750px; padding-top: 8px; }
+	.busq{height: 70px;}
+		#logo{width: 50%;}
+		#buscador{width: 50%;}
+	.menu{height: 60px;}
+/*Menu*/
+.menu
+{
+	color: #FFF;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+	li{	display: block; padding: 10px;}
+	li:hover{font-size: 30px;}
+.main-string
+{
+	height: 130px;
+	padding: 20px;
+	text-align: center;
+	font-size: 80px;
+	color: #FFF;
+	font-family:'MotionPicture';
+}
+
+/*===========Seccion===========0*/
+.seccion{ padding: 0px 40px;}	
+	.D{	width: 35%;	}
+	.I{width: 65%;}
+	#titulo
+	{
+		font-family: 'Miraculous';
+		font-size: 80px; 
+		text-align: center;
+		height: 200px;
+	}
+	.articulo
+	{
+		height: 400px;
+		padding: 20px;
+		text-align: center;
+	}
+	.imagen
+	{
+		width: 80%;
+		height: 300px;
+	}
+.row{display: flex;}
+.lista{padding: 0px 40px;}
+#muestra
+{
+	height: 180px;
+	width: 300px;
+}
+/*.efecto:hover{background-color: rgba(0,0,0,0.5); }*/
+@font-face
+{
+	font-family: 'Miraculous';
+	src: url('./tipografia/Miraculous&Christmas.ttf'); 
+}
+@font-face
+{
+	font-family: 'MotionPicture';
+	src: url('./tipografia/MotionPicture_PersonalUseOnly.ttf'); 
+}
+@font-face
+{
+	font-family: 'Remachine';
+	src: url('./tipografia/RemachineScript_Personal_Use.ttf'); 
+}
+@font-face
+{
+	font-family: 'Courgette';
+	src: url('./tipografia/Courgette-Regular.ttf'); 
+}

@@ -1,0 +1,21 @@
+body
+{
+	background: url(img/ropa.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: contain;
+	width: 100%;
+	height: 700px; 
+	/*background: #000;*/
+}
+
+#formul
+{
+	background-color: #FFF;
+	height: 280px;
+    padding: 20px;
+}
+#fila
+{
+	padding-top: 150px;
+}
